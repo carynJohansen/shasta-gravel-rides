@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gravel Social · Monthly Rides</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <span class="logo-mark">◈</span>
+        <div>
+          <div class="logo-title">Gravel Social</div>
+          <div class="logo-sub">Open monthly rides · All welcome</div>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Rides</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-texture"></div>
+      <div class="hero-inner">
+        <p class="hero-label">No invite needed. Just show up.</p>
+        <h1 class="hero-title">Every month,<br><em>a new road.</em></h1>
+        <p class="hero-body">These rides are open to anyone who wants to join. Check the details below, pick a date that works, and come roll with us. All paces welcome.</p>
+      </div>
+      <div class="hero-wheel">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="100" cy="100" r="90" stroke="currentColor" stroke-width="2" stroke-dasharray="8 6"/>
+          <circle cx="100" cy="100" r="60" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+          <circle cx="100" cy="100" r="10" stroke="currentColor" stroke-width="2"/>
+          <line x1="100" y1="10" x2="100" y2="90" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="100" y1="110" x2="100" y2="190" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="10" y1="100" x2="90" y2="100" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="110" y1="100" x2="190" y2="100" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="27" y1="27" x2="92" y2="92" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="108" y1="108" x2="173" y2="173" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="173" y1="27" x2="108" y2="92" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="92" y1="108" x2="27" y2="173" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="rides-section">
+      <div class="section-header">
+        <h2>Upcoming Rides</h2>
+        <span class="section-rule"></span>
+      </div>
+
+      <div class="rides-list">
+
+        <!-- ============================================================
+             UPCOMING RIDE CARD — copy this block to add a new ride
+             Replace all placeholder text with your real details.
+             Change href="ride-template.html" to the ride's own HTML file.
+             ============================================================ -->
+        <a class="ride-card upcoming" href="ride-june-2025.html">
+          <div class="ride-date-block">
+            <span class="ride-month">June</span>
+            <span class="ride-day">14</span>
+            <span class="ride-year">2025</span>
+          </div>
+          <div class="ride-info">
+            <div class="ride-meta-row">
+              <span class="tag tag--upcoming">Upcoming</span>
+              <span class="ride-distance">48 km · 650 m climbing</span>
+            </div>
+            <h3 class="ride-name">Ridgeline Loop via Clearwater Creek</h3>
+            <p class="ride-teaser">A classic mix of packed forest roads and open meadow singletrack. One steep-ish climb early, then mostly rolling to the finish. Good for confident beginners.</p>
+            <div class="ride-details-row">
+              <span class="detail-item">📍 Millbrook Trailhead parking lot</span>
+              <span class="detail-item">⏰ 8:00 am start</span>
+            </div>
+          </div>
+          <div class="ride-arrow">→</div>
+        </a>
+
+      </div><!-- /rides-list upcoming -->
+
+      <div class="section-header past-header">
+        <h2>Past Rides</h2>
+        <span class="section-rule"></span>
+      </div>
+
+      <div class="rides-list past-rides">
+
+        <!-- ============================================================
+             PAST RIDE CARD — same structure, just add class "past" 
+             and change tag to tag--past
+             ============================================================ -->
+        <a class="ride-card past" href="ride-may-2025.html">
+          <div class="ride-date-block">
+            <span class="ride-month">May</span>
+            <span class="ride-day">10</span>
+            <span class="ride-year">2025</span>
+          </div>
+          <div class="ride-info">
+            <div class="ride-meta-row">
+              <span class="tag tag--past">Past ride</span>
+              <span class="ride-distance">62 km · 900 m climbing</span>
+            </div>
+            <h3 class="ride-name">Hawk Hill to Fernwood Valley</h3>
+            <p class="ride-teaser">Our biggest ride of the spring — long climb through old-growth forest, fast gravel descent, and a café stop at the valley floor. 11 riders joined.</p>
+            <div class="ride-details-row">
+              <span class="detail-item">📍 Old Station Road car park</span>
+              <span class="detail-item">⏰ 7:30 am start</span>
+            </div>
+          </div>
+          <div class="ride-arrow">→</div>
+        </a>
+
+        <a class="ride-card past" href="ride-april-2025.html">
+          <div class="ride-date-block">
+            <span class="ride-month">Apr</span>
+            <span class="ride-day">12</span>
+            <span class="ride-year">2025</span>
+          </div>
+          <div class="ride-info">
+            <div class="ride-meta-row">
+              <span class="tag tag--past">Past ride</span>
+              <span class="ride-distance">35 km · 380 m climbing</span>
+            </div>
+            <h3 class="ride-name">Riverside Flats — Spring Opener</h3>
+            <p class="ride-teaser">A mellow early-season roll along the river path and farm tracks. Perfect for shaking off the winter cobwebs. 7 riders, coffee at the finish.</p>
+            <div class="ride-details-row">
+              <span class="detail-item">📍 Riverside Community Centre</span>
+              <span class="detail-item">⏰ 9:00 am start</span>
+            </div>
+          </div>
+          <div class="ride-arrow">→</div>
+        </a>
+
+      </div><!-- /rides-list past -->
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="logo-mark">◈</span>
+      <p>Gravel Social · Open rides, every month</p>
+      <p class="footer-note">Questions? Just show up — or find us on Strava.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

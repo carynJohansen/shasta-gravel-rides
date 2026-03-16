@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>May Ride · Gravel Social</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <span class="logo-mark">◈</span>
+        <div>
+          <div class="logo-title">Gravel Social</div>
+          <div class="logo-sub">Open monthly rides · All welcome</div>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Rides</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="ride-page">
+    <div class="ride-page-inner">
+
+      <a href="index.html" class="back-link">← All rides</a>
+
+      <div class="ride-page-header">
+        <div class="ride-page-date">
+          <span class="tag tag--past">Past ride</span>
+          <span class="ride-page-datetext">Saturday, 10 May 2025</span>
+        </div>
+        <h1 class="ride-page-title">Hawk Hill to<br><em>Fernwood Valley</em></h1>
+        <div class="ride-page-stats">
+          <div class="stat-block">
+            <span class="stat-label">Distance</span>
+            <span class="stat-value">62 km</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-label">Climbing</span>
+            <span class="stat-value">900 m</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-label">Start time</span>
+            <span class="stat-value">7:30 am</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-label">Difficulty</span>
+            <span class="stat-value">Challenging</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-label">Riders</span>
+            <span class="stat-value">11</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ride-page-body">
+
+        <div class="ride-page-main">
+
+          <section class="ride-section">
+            <h2>How it went</h2>
+            <p>Our biggest ride of the spring didn't disappoint. Eleven riders gathered at Old Station Road on a perfect cool morning, and we made steady work of the long climb through the old-growth section above the valley. The views at the top were worth every metre of elevation.</p>
+            <p>The fast gravel descent down to Fernwood was the highlight — loose in places but well-signed, and everyone made it down grinning. Coffee and cake at the valley café rounded off a great morning. We were back at the cars by 1pm.</p>
+          </section>
+
+          <section class="ride-section">
+            <h2>Route</h2>
+            <a class="map-link" href="https://www.komoot.com" target="_blank" rel="noopener">
+              <span>View route on Komoot</span>
+              <span class="map-link-arrow">↗</span>
+            </a>
+          </section>
+
+          <!-- PHOTOS — add your own images to a /photos folder and update the src paths -->
+          <section class="ride-section">
+            <h2>Photos</h2>
+            <!-- To add photos:
+                 1. Create a folder called "photos" in your gravel-rides folder
+                 2. Add your .jpg or .png files there
+                 3. Replace the placeholder src values below with your filenames
+                 e.g. src="photos/may-2025-start.jpg"
+            -->
+            <div class="photo-grid">
+              <img src="photos/may-2025-1.jpg" alt="Riders at the start" style="background:#e8e0d0;min-height:200px;" />
+              <img src="photos/may-2025-2.jpg" alt="Climbing through the forest" style="background:#ddd8cc;min-height:200px;" />
+              <img src="photos/may-2025-3.jpg" alt="Views from the ridge" style="background:#e8e0d0;min-height:200px;" />
+              <img src="photos/may-2025-4.jpg" alt="Coffee stop at Fernwood" style="background:#ddd8cc;min-height:200px;" />
+            </div>
+            <p style="margin-top:0.75rem; font-size:0.8rem; color:var(--pale);">
+              Photos by [your name here]. Add photos to the /photos folder and update the filenames above.
+            </p>
+          </section>
+
+        </div>
+
+        <aside class="ride-page-sidebar">
+          <div class="sidebar-card">
+            <h3>Ride stats</h3>
+            <ul class="sidebar-list">
+              <li><span class="sidebar-label">Date</span><span>Sat 10 May 2025</span></li>
+              <li><span class="sidebar-label">Riders</span><span>11</span></li>
+              <li><span class="sidebar-label">Distance</span><span>62 km</span></li>
+              <li><span class="sidebar-label">Climbing</span><span>900 m</span></li>
+              <li><span class="sidebar-label">Moving time</span><span>~3h 20min</span></li>
+              <li><span class="sidebar-label">Café stop</span><span>Fernwood Valley Café</span></li>
+            </ul>
+          </div>
+          <div class="sidebar-card sidebar-card--note">
+            <h3>Next ride</h3>
+            <p>Check the <a href="index.html" style="color:var(--clay)">rides page</a> for details on the upcoming June ride.</p>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="logo-mark">◈</span>
+      <p>Gravel Social · Open rides, every month</p>
+      <p class="footer-note">Questions? Just show up — or find us on Strava.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
